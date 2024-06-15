@@ -28,7 +28,7 @@ export const SignInUp = () => {
       return 'Welcome to Korby';
     }
     return signInUpMode === SignInUpMode.SignIn
-      ? 'Sign in to Krby'
+      ? 'Sign in to Korby'
       : 'Sign up to Korby';
   }, [signInUpMode, signInUpStep]);
 

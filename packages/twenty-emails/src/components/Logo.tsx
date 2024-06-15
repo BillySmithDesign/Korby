@@ -1,17 +1,21 @@
-import { Img } from '@react-email/components';
+import {
+    Img
+}
+from '@react-email/components';
 
 const logoStyle = {
-  marginBottom: '40px',
+    marginBottom: '40px',
 };
 
-export const Logo = () => {
-  return (
-    <Img
-      src="https://app.twenty.com/icons/windows11/Square150x150Logo.scale-100.png"
-      alt="Twenty logo"
-      width="40"
-      height="40"
-      style={logoStyle}
-    />
+export
+const Logo = () => {
+    return ( < Img src = "/packages/twenty-website/public/images/core/logo-mini.png"
+        alt = "Korby logo"
+        width = "40"
+        height = "40"
+        style = {
+            logoStyle
+        }
+        />
   );
 };
